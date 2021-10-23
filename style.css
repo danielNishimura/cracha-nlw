@@ -18,9 +18,10 @@ body {
 }
 
 main {
-    background: url(images/background.svg);
-    width: 375px;
-    height: 812px;
+    background: url(images/background.svg) no-repeat center/cover;
+    width: 100vw;
+    min-height: 812px;
+    height: 100vh;
 }
 
 .container {
@@ -73,6 +74,10 @@ a {
     align-items: center;
 }
 
+#userLogin:hover {
+    text-decoration-line: underline;
+}
+
 p {
     margin-top: 2rem;
 }
@@ -87,4 +92,47 @@ ul {
     gap: 0.5rem;
 
     justify-content: center;
+}
+
+.youtube {
+    transition: .7s;
+   
+}
+.youtube:hover {
+    transform: scale(1.2);
+}
+
+.facebook {
+    transition: .7s;
+   
+}
+.facebook:hover {
+    transform: scale(1.2);
+}
+
+.instagram {
+    transition: .7s;
+   
+}
+.instagram:hover {
+    transform: scale(1.2);
+}
+
+.twitter {
+    transition: .7s;
+   
+}
+.twitter:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+@media (min-width: 720px) {
+
+}
+
+@media (min-width: 960px) {
+
 }
