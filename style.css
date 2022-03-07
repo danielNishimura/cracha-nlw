@@ -19,8 +19,8 @@ body {
 
 main {
     background: url(images/background.svg) no-repeat center/cover;
-    width: 80vw;
-    min-height: 812px;
+    width: 375px;
+    height: 812px;
 }
 
 .container {
@@ -113,7 +113,6 @@ ul {
     transition: .7s;
    
 }
-
 .instagram:hover {
     transform: scale(1.2);
 }
@@ -130,11 +129,7 @@ ul {
 
 
 @media (min-width: 720px) {
-    main {
-    background: url(images/background.svg) no-repeat center/cover;
-    width: 60vw;
-    min-height: 812px;
-}
+
 }
 
 @media (min-width: 960px) {
